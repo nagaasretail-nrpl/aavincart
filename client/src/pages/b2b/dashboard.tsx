@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useQuery, useMutation } from '@tanstack/react-query';
 import { useSearch, Link, useLocation } from 'wouter';
-import customerLogo from '@assets/F-F_1770588249868.png';
+import customerLogo from '@assets//aavin-logo.png';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';

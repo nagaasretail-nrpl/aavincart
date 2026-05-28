@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Eye, EyeOff } from 'lucide-react';
-import aavinLogo from "@assets/F-F_1770588249868.png";
+import aavinLogo from "@assets//aavin-logo.png";
 import { useToast } from '@/hooks/use-toast';
 
 interface Parlour {

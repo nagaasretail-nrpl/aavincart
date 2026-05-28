@@ -12,7 +12,7 @@ import {
   ChevronDown, ChevronUp, ExternalLink, Weight, Boxes,
   Route, CircleDot, Loader2
 } from 'lucide-react';
-import deliveryLogo from '@assets/F-F_1770588249868.png';
+import deliveryLogo from '@assets//aavin-logo.png';
 
 export default function DriverTripDashboard() {
   const [, setLocation] = useLocation();

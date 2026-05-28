@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { MapPin, Loader2, ChevronDown } from "lucide-react";
-import customerLogo from "@assets/F-F_1770588249868.png";
+import customerLogo from "@assets//aavin-logo.png";
 import { Button } from "@/components/ui/button";
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "wouter";

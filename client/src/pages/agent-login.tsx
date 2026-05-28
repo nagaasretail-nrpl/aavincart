@@ -11,7 +11,7 @@ import { z } from "zod";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { apiRequest, queryClient } from "@/lib/queryClient";
 import { Eye, EyeOff, KeyRound } from "lucide-react";
-import aavinLogo from "@assets/F-F_1770588249868.png";
+import aavinLogo from "@assets//aavin-logo.png";
 import { useAuth } from "@/lib/auth-context";
 
 const loginSchema = z.object({

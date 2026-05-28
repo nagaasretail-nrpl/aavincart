@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Building2, Users, Truck, Award, MapPin, Phone } from "lucide-react";
 import Footer from "@/components/footer";
-import customerLogo from "@assets/F-F_1770588249868.png";
+import customerLogo from "@assets//aavin-logo.png";
 
 export default function About() {
   return (

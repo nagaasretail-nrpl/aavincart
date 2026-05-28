@@ -11,7 +11,7 @@ import {
   LogOut, User, RefreshCw, Navigation, ChevronRight,
   Milk, IceCream, ShoppingBag, AlertCircle
 } from 'lucide-react';
-import deliveryLogo from '@assets/F-F_1770588249868.png';
+import deliveryLogo from '@assets//aavin-logo.png';
 
 const segmentIcons: Record<string, any> = {
   'Fresh Milk': Milk,
