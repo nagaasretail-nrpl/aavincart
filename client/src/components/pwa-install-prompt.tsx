@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from "react";
 import { X, Download, Smartphone, Share2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
-import customerLogo from "@assets/F-F_1770588249868.png";
 
 interface BeforeInstallPromptEvent extends Event {
   prompt(): Promise<void>;
