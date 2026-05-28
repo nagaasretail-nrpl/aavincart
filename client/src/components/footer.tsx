@@ -1,6 +1,5 @@
 import { Facebook, Twitter, Instagram } from "lucide-react";
 import { Link } from "wouter";
-import customerLogo from "@assets/F-F_1770588249868.png";
 
 interface FooterProps {
   className?: string;
