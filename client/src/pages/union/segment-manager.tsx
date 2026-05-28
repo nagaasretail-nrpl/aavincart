@@ -18,7 +18,7 @@ import {
   ChevronRight, User, MapPin, Phone, CreditCard, Truck,
   BarChart3, AlertCircle
 } from 'lucide-react';
-import aavinLogo from "@assets//aavin-logo.png";
+import aavinLogo from "@assets/aavin-logo.png";
 
 const SEGMENT_MAP: Record<string, string> = { FM: 'Fresh Milk', DP: 'Products', IC: 'Ice Cream' };
 const SEGMENT_REVERSE: Record<string, string> = { 'Fresh Milk': 'FM', 'Products': 'DP', 'Ice Cream': 'IC' };

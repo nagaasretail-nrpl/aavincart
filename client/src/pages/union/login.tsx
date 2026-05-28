@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Eye, EyeOff, Users } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import aavinLogo from "@assets//aavin-logo.png";
+import aavinLogo from "@assets/aavin-logo.png";
 import { apiRequest, queryClient } from '@/lib/queryClient';
 
 export default function UnionLogin() {

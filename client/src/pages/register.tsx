@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Building2, Store, ShoppingBag, User, ArrowRight } from "lucide-react";
-import aavinLogo from "@assets//aavin-logo.png";
+import aavinLogo from "@assets/aavin-logo.png";
 
 const REGISTRATION_ROLES = [
   {

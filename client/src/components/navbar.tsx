@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation as useWouterLocation } from "wouter";
-import customerLogo from "@assets//aavin-logo.png";
+import customerLogo from "@assets/aavin-logo.png";
 import { MapPin, ShoppingCart, Menu, User, LogOut, LayoutDashboard, X, Home, Grid3X3, Package, UserCircle, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCartStore } from "@/lib/store";

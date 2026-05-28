@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { Eye, EyeOff, Store } from "lucide-react";
 import { queryClient } from "@/lib/queryClient";
-import aavinLogo from "@assets//aavin-logo.png";
+import aavinLogo from "@assets/aavin-logo.png";
 
 export default function FmdLogin() {
   const [, setLocation] = useLocation();

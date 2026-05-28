@@ -8,7 +8,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Label } from "@/components/ui/label";
 import { apiRequest, queryClient } from "@/lib/queryClient";
 import { Truck, Eye, EyeOff, ArrowLeft, Loader2 } from "lucide-react";
-import customerLogo from "@assets//aavin-logo.png";
+import customerLogo from "@assets/aavin-logo.png";
 
 function storeStaffSessionAndRedirect(manager: any, setLocation: (path: string) => void) {
   const staffSession = {
