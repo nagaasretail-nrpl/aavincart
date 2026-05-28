@@ -1,0 +1,14 @@
+AAVINCART RAILWAY DEPLOYMENT
+
+Railway Variables:
+DATABASE_URL=your Neon database URL
+NODE_ENV=production
+PORT=3000
+
+Build Command:
+npm install && npm run build
+
+Start Command:
+npm start
+
+After deploy: Settings > Networking > Generate Domain

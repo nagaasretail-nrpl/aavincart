@@ -1,0 +1,38 @@
+export const DISTRICT_UNIONS = [
+  { value: "merchant-2", label: "Coimbatore Union" },
+  { value: "merchant-3", label: "Salem Union" },
+  { value: "merchant-4", label: "Madurai Union" },
+  { value: "merchant-5", label: "Trichy Union" },
+  { value: "merchant-6", label: "Thanjavur Union" },
+  { value: "merchant-7", label: "Erode Union" },
+  { value: "merchant-8", label: "Tirunelveli Union" },
+  { value: "merchant-9", label: "Vellore Union" },
+  { value: "merchant-10", label: "Villupuram Union" },
+  { value: "merchant-11", label: "Kanchipuram-Thiruvallur Union" },
+  { value: "merchant-12", label: "Thiruvannamalai Union" },
+  { value: "merchant-13", label: "Cuddalore Union" },
+  { value: "merchant-15", label: "Dindigul Union" },
+  { value: "merchant-16", label: "Theni Union" },
+  { value: "merchant-17", label: "Virudhunagar Union" },
+  { value: "merchant-19", label: "Sivagangai Union" },
+  { value: "merchant-20", label: "Thoothukudi Union" },
+  { value: "merchant-21", label: "Kanyakumari Union" },
+  { value: "merchant-22", label: "Namakkal Union" },
+  { value: "merchant-23", label: "Dharmapuri Union" },
+  { value: "merchant-24", label: "Krishnagiri Union" },
+  { value: "merchant-25", label: "Tirupur Union" },
+  { value: "merchant-26", label: "Karur Union" },
+  { value: "merchant-28", label: "Kallakurichi Union" },
+  { value: "merchant-29", label: "Nilgiris Union" },
+  { value: "merchant-30", label: "Pudukkottai Union" },
+  { value: "merchant-31", label: "Thirupathur Union" },
+  { value: "merchant-fed-01", label: "Federation (TCMPF)" },
+  { value: "merchant-fed-amb", label: "Ambattur Dairy" },
+  { value: "merchant-fed-mad", label: "Madhavaram Dairy" },
+  { value: "merchant-fed-sho", label: "Sholinganallur Dairy" },
+  { value: "merchant-fed-pro", label: "Products Dairy (Ambattur)" },
+];
+
+export function getUnionLabel(merchantId: string): string {
+  return DISTRICT_UNIONS.find(u => u.value === merchantId)?.label || merchantId;
+}
